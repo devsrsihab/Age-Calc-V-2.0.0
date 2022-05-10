@@ -1,0 +1,81 @@
+
+
+
+
+.card-body {
+    background-color: #eee;
+}
+
+.bto {
+    background-image: url('img/insm.svg') !important;
+}
+
+input.button {
+    color: white;
+    padding: 11px 37px;
+    background: #336699;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    line-height: 1;
+    outline: none;
+    border: none;
+    /* margin-left: 14.5rem; */
+    margin-top: 1rem;
+}
+
+.calc{
+    background: #eee;
+}
+
+.name-vlu{
+    color: #336699;
+}
+
+
+
+
+
+
+.dycalendar-month-container .dycalendar-today-date, .dycalendar-month-container .dycalendar-target-date {
+    background-color: rgb(247, 250, 16);
+    border-radius: 5px;
+    color: #000;
+}
+table{
+    width: 100%;
+}
+.dycalendar-month-container {
+    background: #336699 ;
+    color: white;
+}
+.dycalendar-body table tr:nth-child(1) td {
+    background: white;
+    color: #336699;
+    border: 2px solid #336699;
+    border-radius: 5px;
+}
+.dycalendar-month-container div {
+
+    margin-bottom: 20px;
+}
+span.dycalendar-prev-next-btn.prev-btn, span.dycalendar-prev-next-btn.next-btn  {
+    background: #fff;
+    color: #111;
+    width: 40px;
+    height: 30px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+.dycalendar-month-container {
+    background: #336699;
+    color: white;
+    padding: 30px 12px;
+}
+span.dycalendar-span-month-year {
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
