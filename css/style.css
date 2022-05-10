@@ -79,3 +79,19 @@ span.dycalendar-span-month-year {
     font-weight: 600;
     text-transform: capitalize;
 }
+.dycalendar_dob {
+    padding: 13px;
+}
+.dycalendar_tday {
+    padding: 13px;
+}
+@media (max-width: 360px) { 
+    
+
+    .name-vlu{
+        font-size: 18px;
+    }
+    .age_value{
+        font-size: 16px;
+    }
+ }

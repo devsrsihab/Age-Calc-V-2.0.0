@@ -62,14 +62,14 @@ if ($bday >= $today) {
 
         <div class="row justify-content-center  my-5 calc">
             <div class="col-md-10">
-                <div class="h5 pt-1  text-center text-success my-4  ">
+                <div class="h5 pt-1 result  text-center text-success my-4  ">
                 <h4 class="name-vlu"><?php if (isset($_POST['submita4'])) {
                    echo "Hi ".$_POST['fullname'];
                 } ?></h4>
-                    <?php
+             <h5 class="age_value"> <?php
             if (isset($_POST['submita4'])) {
             echo "<b>Your Age:</b> ". srAgeCalc($dob); }
-         ?>
+         ?></h5>      
                 </div>
             </div>
             <div class="col-md-10">
@@ -132,12 +132,12 @@ if ($bday >= $today) {
 
         <!-- calender row  -->
         <div class="row justify-content-center  ">
-            <div class="col-md-4 mb-3">
+            <div class="col-md-5 col-sm-6 mb-3">
                 <div class="dycalendar_dob ">
 
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-5 col-sm-6">
                 <div class="dycalendar_tday">
 
                 </div>
